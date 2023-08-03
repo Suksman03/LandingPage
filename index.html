@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.cdnfonts.com/css/bai-jamjuree" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+    />
+    <title>Clipboard landing page</title>
+  </head>
+  <body>
+    <!-- This section is the viewheight of the screen  -->
+    <div class="container-fluid view-port">
+      <div class="row">
+        <div
+          class="position-absolute text-center align-items-center justify-content-center"
+        >
+          <img
+            src="./images/logo.svg"
+            class="img-fluid brand-logo"
+            alt="logo"
+          />
+        </div>
+        <!-- The background image of the viewport -->
+        <img
+          src="./images/bg-header-mobile.png"
+          class="img-fluid d-block d-md-none"
+          alt="header-mobile"
+        />
+        <img
+          src="./images/bg-header-desktop.png"
+          class="img-fluid d-none d-md-block"
+          alt="header-desktop"
+        />
+      </div>
+      <!-- The text below the logo -->
+      <div class="row sub-heading">
+        <h1 class="text-center position-absolute">
+          A history of everything you copy
+        </h1>
+        <h6 class="text-center position-absolute">
+          Clipboard allows you to track and organize everything you copy.
+          Instantly<br />
+          access your clipboard on all your devices.
+        </h6>
+      </div>
+      <div
+        class="container-fluid col gap-3 align-items-center justify-content-evenly position-absolute text-center buttons"
+      >
+        <button
+          type="button"
+          class="col btn btn-success ios rounded-pill"
+          style="background-color: hsl(171, 66%, 44%)"
+        >
+          Download for iOS
+        </button>
+        <button
+          type="button"
+          class="col btn btn-primary mac rounded-pill my-3"
+          style="background-color: hsl(233, 100%, 69%)"
+        >
+          Download for Mac
+        </button>
+      </div>
+      <div class="container-fluid position-absolute text-center sub-text">
+        <div class="row">
+          <h2 class="text-center">Keep track of your snippets</h2>
+          <h6 class="text-center">
+            Clipboard instantly stores any item you copy in the cloud, meaning
+            you can access<br />
+            your snippets immediately on all your devices. Our Mac and iOS apps
+            will help you<br />
+            organize everything.
+          </h6>
+        </div>
+      </div>
+    </div>
+    <div class="second-viewport">
+      <div class="row">
+        <img
+          src="./images/image-computer.png"
+          class="img col-lg-6 col-md-11 col-12 d-sm-inline"
+          alt="desktop"
+        />
+
+        <div class="col col col-sm-12 col-md-12 col-lg-6">
+          <!-- Using responsive utility classes to align the text -->
+          <h3 class="quick-search text-center text-lg-start col-sm-12">
+            Quick search
+          </h3>
+          <h5 class="text-center text-lg-start">
+            Easily search your snippets by content,
+            <br class="d-none d-sm-inline" />
+            category, web address, application, and more.
+          </h5>
+          <br />
+          <h3 class="iCloud text-center text-lg-start mx-auto">iCloud Sync</h3>
+          <h5 class="text-center text-lg-start">
+            Instantly saves and syncs snippets across all<br
+              class="d-none d-sm-inline"
+            />
+            your devices.
+          </h5>
+          <br />
+          <h3 class="complete-history text-center text-lg-start mx-auto">
+            Complete History
+          </h3>
+          <h5 class="text-center text-lg-start">
+            Retrieve any snippets from the first moment<br
+              class="d-none d-sm-inline"
+            />
+            you started using the app.
+          </h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid third-viewport">
+      <div class="row">
+        <h3 class="text-center">
+          <b
+            >Access Clipboard <br class="d-sm-none d-inline" />
+            anywhere</b
+          >
+        </h3>
+        <h5 class="text-center">
+          Whether you’re on the go, or at your computer, you can access all your
+          Clipboard<br />
+          snippets in a few simple clicks.
+        </h5>
+        <br /><br />
+        <img
+          src="./images/image-devices.png"
+          class="img col-lg-8 mx-auto d-block"
+          alt="device"
+        />
+        <h3
+          class="supercharge justify-content-center text-center"
+          style="font-weight: 600"
+        >
+          Supercharge your work flow
+        </h3>
+        <h5 class="text-center">
+          We’ve got the tools to boost your productivity.
+        </h5>
+        <br /><br />
+        <div class="row justify-content-evenly text-center">
+          <div class="col-md-4">
+            <img
+              src="./images/icon-blacklist.svg"
+              class="img-fluid"
+              alt="icon-blacklist"
+            />
+            <div class="pre-text">Plain text snippets</div>
+            <h6 class="post-text">
+              Ensure sensitive information never makes its<br
+                class="d-none d-sm-inline"
+              />
+              way to your clipboard by excluding certain<br
+                class="d-none d-sm-inline"
+              />
+              sources.
+            </h6>
+          </div>
+          <div class="col-md-4">
+            <img
+              src="./images/icon-text.svg"
+              class="img-fluid"
+              alt="icon-text"
+            />
+            <div class="pre-text">Create blacklists</div>
+            <h6 class="post-text">
+              Remove unwanted formatting from copied text<br
+                class="d-none d-sm-inline"
+              />
+              for a consistent look.
+            </h6>
+          </div>
+          <div class="col-md-4">
+            <img
+              src="./images/icon-preview.svg"
+              class="img-fluid pt-3"
+              alt="icon-preview"
+            />
+            <br />
+            <div class="pre-text">Sneak preview</div>
+            <h6 class="post-text">
+              Quick preview of all snippets on your Clipboard<br
+                class="d-none d-sm-inline"
+              />
+              for easy access.
+            </h6>
+          </div>
+        </div>
+        <div class="row justify-content-evenly text-center">
+          <div class="col-md-2">
+            <img
+              src="./images/logo-google.png"
+              class="img-fluid logo"
+              alt="google logo"
+            />
+          </div>
+          <div class="col-md-2">
+            <img
+              src="./images/logo-ibm.png"
+              class="img-fluid logo"
+              alt="ibm logo"
+            />
+          </div>
+          <div class="col-md-2">
+            <img
+              src="./images/logo-microsoft.png"
+              class="img-fluid logo"
+              alt="microsoft logo"
+            />
+          </div>
+          <div class="col-md-2">
+            <img
+              src="./images/logo-hp.png"
+              class="img-fluid logo"
+              alt="hp logo"
+            />
+          </div>
+          <div class="col-md-2">
+            <img
+              src="./images/logo-vector-graphics.png"
+              class="img-fluid logo"
+              alt="vg logo"
+            />
+          </div>
+          <h3 class="text-center pt-5" style="font-weight: 600">
+            Access Clipboard anywhere
+          </h3>
+          <h5 class="text-center pt-3">
+            Available for free on the App Store. Download for Mac or iOS, sync
+            with iCloud and<br />
+            you’re ready to start adding to your clipboard.
+          </h5>
+          <div
+            class="container-fluid col align-items-center pt-5 justify-content-evenly text-center buttons"
+          >
+            <!-- Using bootsrap5 buttons style for the IOS and MAC buttons of the page -->
+            <button
+              type="button"
+              class="col btn btn-success ios rounded-pill"
+              style="background-color: hsl(171, 66%, 44%)"
+            >
+              Download for iOS
+            </button>
+            <button
+              type="button"
+              class="col btn btn-primary mac rounded-pill my-3"
+              style="background-color: hsl(233, 100%, 69%)"
+            >
+              Download for Mac
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid footer">
+      <div class="row justify-content-center">
+        <!-- Adding justify-content-center class to center columns -->
+        <div class="col col-md-12 col-sm-12 col-lg-2 text-center">
+          <img
+            src="./images/logo.svg"
+            class="img-fluid footer-logo"
+            style="width: 100px; height: 100px"
+            alt="vg logo"
+          />
+        </div>
+        <div class="col-md-12 col-sm-12 col-lg-4 footer-text text-center">
+          <!-- Adding text-center class to center the content -->
+          <ul class="d-flex">
+            <li class="list-item">FAQ'S</li>
+            <li class="list-item">Privacy Policy</li>
+            <li class="list-item">Install Guide</li>
+            <li class="list-item">Contact Us</li>
+            <li class="list-item">Press Kit</li>
+          </ul>
+        </div>
+        <div class="col-md-12 col-sm-12 col-lg-6">
+          <div
+            class="d-flex pt-5 d-flex pt-5 ms-5 justify-content-center align-items-end footer-icons footer-icons"
+          >
+            <i class="fa fa-facebook-official"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

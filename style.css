@@ -1,0 +1,146 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+.text-center {
+  top: 2rem;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+.img-fluid {
+  width: 8rem;
+  height: auto;
+}
+.sub-heading h1 {
+  margin-top: 10rem;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 600;
+}
+.sub-heading h6 {
+  color: hsl(201, 11%, 66%);
+  margin-top: 15rem;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+.btn-primary,
+.btn-success {
+  width: 13rem;
+  box-shadow: 2px 2px 1px rgb(96, 96, 96);
+}
+.btn-primary:hover,
+.btn-success:hover {
+  opacity: 0.8;
+}
+.buttons {
+  text-align: center;
+  margin-top: 22rem;
+}
+
+.sub-text {
+  top: 30rem;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+.sub-text h6 {
+  color: hsl(201, 11%, 66%);
+  font-family: "Bai Jamjuree", sans-serif;
+}
+.sub-text h2 {
+  color: black;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 600;
+}
+.second-viewport {
+  padding: 5px;
+  margin-top: 30rem;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+.second-viewport h5 {
+  color: hsl(201, 11%, 66%);
+}
+.img {
+  padding: 0;
+  max-width: 100%;
+}
+.computer img {
+  padding: 0;
+  min-width: 100%;
+}
+.text-area {
+  padding-right: 2rem;
+  text-align: start;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20%;
+}
+
+.third-viewport {
+  margin-top: 2rem;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+.third-viewport h5 {
+  color: hsl(201, 11%, 66%);
+}
+
+.pre-text,
+.post-text {
+  padding-top: 2rem;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+.logo {
+  width: 150px;
+  padding-top: 8rem;
+}
+.footer {
+  margin-top: 2rem;
+  height: auto;
+  background-color: hsl(210, 4%, 91%);
+}
+.footer-logo {
+  padding-top: 2rem;
+  padding-left: 2rem;
+}
+
+.pre-text {
+  font-weight: 600;
+  font-size: larger;
+}
+.post-text {
+  font-weight: 400;
+}
+.footer-text {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 400;
+}
+.footer-text ul {
+  list-style: none;
+  margin: 0;
+  padding-top: 35px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer li {
+  padding: 10px;
+}
+.footer-text .list-item:hover {
+  color: hsl(171, 66%, 44%); /* Changing the text color on hover */
+  cursor: pointer;
+}
+.fa {
+  padding-left: 20px;
+  font-size: 28px;
+  color: rgb(44, 44, 44);
+}
+.footer-icons i:hover {
+  color: hsl(
+    171,
+    66%,
+    44%
+  ); /* Changing the icons color to the desired color on hover */
+  cursor: pointer;
+}
